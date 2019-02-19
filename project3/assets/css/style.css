@@ -1,0 +1,188 @@
+body
+{
+    background-color: white;
+}
+h4
+{
+    width: 20%;
+}
+
+.symbols{
+    display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+}
+.symbols img
+{
+    position: relative;
+    margin: 0 auto;
+    margin-left: 5em;
+    margin-right:5em;
+}
+.dyes{
+    display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+    text-align:left;
+}
+.dyes p
+{
+    width: 50%;
+}
+#white
+{
+    background-color: white;
+     border: black 1px solid;
+    height: 100px;
+    width: 100px;
+    margin-left: 15em;
+}
+#yellow
+{
+    background-color: yellow;
+    border: black 1px solid;
+    height: 100px;
+    width: 100px;
+    margin-left: 15em;
+
+}
+#orange
+{
+    background-color: orange;
+    border: black 1px solid;
+    height: 100px;
+    width: 100px;
+    margin-left: 15em;
+}
+#green
+{
+    background-color: green;
+    border: black 1px solid;
+    height: 100px;
+    width: 100px;
+    margin-left: 15em;
+}
+#green
+{
+    background-color: green;
+    border: black 1px solid;
+    height: 100px;
+    width: 100px;
+    margin-left: 15em;
+}
+#red
+{
+    background-color: red;
+    border: black 1px solid;
+    height: 100px;
+    width: 100px;
+    margin-left: 15em;
+}
+#blue
+{
+    background-color: blue;
+    border: black 1px solid;
+    height: 100px;
+    width: 100px;
+    margin-left: 15em;
+}
+#purple
+{
+    background-color: purple;
+    border: black 1px solid;
+    height: 100px;
+    width: 100px;
+    margin-left: 15em;
+}
+#brown
+{
+    background-color: saddlebrown;
+    border: black 1px solid;
+    height: 100px;
+    width: 100px;
+    margin-left: 15em;
+}
+#black
+{
+    background-color: black;
+    border: black 1px solid;
+    height: 100px;
+    width: 100px;
+    margin-left: 15em;
+}
+#wheat
+{
+    transform: rotate(270deg);
+}
+#fish
+{
+    transform: rotate(270deg);
+}
+
+
+@media only screen and (max-width: 768px) {
+   #headimg{
+        display: none;
+    }
+    .symbols{
+        display: inherit;
+    }
+    .dyes{
+        display: inherit;
+        
+    }
+    .dyes p
+    {
+        width: 100%;
+    }
+    #white
+    {
+        margin-left: inherit;
+    }
+    #yellow
+    {
+        margin-left: inherit;
+    }
+    #orange
+    {
+        margin-left: inherit;
+    }
+    #green
+    {
+        margin-left: inherit;
+    }
+    #red
+    {
+        margin-left: inherit;
+    }
+    #blue
+    {
+        margin-left: inherit;
+    }
+    #purple
+    {
+        margin-left: inherit;
+    }
+    #brown
+    {
+        margin-left: inherit;
+    }
+    #black
+    {
+        margin-left: inherit;
+    }
+}
+@media only screen and (max-width: 1247px)
+{
+       h4{
+        width: 100%;
+    }
+    .symbols img
+    {
+        margin: auto;
+        
+    }
+}
+
